@@ -1,0 +1,67 @@
+body{
+    background-image: url(/assets/pxfuel.png);
+    background-size: cover;
+    background-size: no-repeat;
+    color: rgb(195, 211, 185);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.focus-body {
+    margin-top: 85px;
+    font-size: 27px;
+}
+
+.focus-body h1 {
+    font-size: 66px;
+}
+
+.focus-body span {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+audio {
+    display: none;
+}
+
+.focus-body button {
+    background-color: black;
+    color: beige;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 15px 25px;
+    border-radius: 12%;
+    margin-top: 22px;
+    font-size: 22px;
+    transition: all 0.2 ease;
+}
+
+
+.focus-body button:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.focus-body input {
+    margin: 22px;
+}
+
+.icon-buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 30px;
+}
+
+.futbol-icons {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
